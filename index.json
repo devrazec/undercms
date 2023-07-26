@@ -1,21 +1,22 @@
 {
     "config": {
-        "siteTitle": "UnderCMS",
+        "pageTitle": "UnderCMS",
+        "keywords": "",
+        "description": "",
         "logoName": "UnderCMS",
         "logoImage": "logo.png",
         "faviconImage": "favicon.png",
         "defaultPage": "index.html",
         "defaultMenu": "home",
-        "style": "style.css",                      
-        "activeAdminLogin": true,  
-        "activeUserLogin": true,       
+        "style": "style.css",                              
+        "activeLogin": true,       
         "pageHeader": {
-            "content": "UnderCMS is a simple, fast, and modern CMS.",
+            "content": "UnderCMS is a simple, fast, and modern CMS",
             "backgroundColor": "#cca463",
             "backgroundImage": ""
         },       
         "pageFooter": { 
-            "content": "2023 Created by Devrazec.",
+            "content": "UnderCMS 2023 - Created by Devrazec",
             "backgroundColor": "#cca463",
             "backgroundImage": ""
         }
@@ -24,56 +25,56 @@
     "menu": {
         "0": {
             "sort": "1",
-            "name": "Home",
             "slug": "home",
+            "name": "Home",            
             "page": "#section1",
             "externalLink": false,
             "active": true
         },
         "1": {
             "sort": "2",
-            "name": "Services",
             "slug": "services",
+            "name": "Services",            
             "page": "#section2",
             "externalLink": false,
             "active": true
         },
         "2": {
             "sort": "3",
-            "name": "Portfolio",
             "slug": "portfolio",
+            "name": "Portfolio",            
             "page": "#section2",
             "externalLink": false,
             "active": true
         },
         "3": {
             "sort": "4",
-            "name": "Resume",
             "slug": "resume",
+            "name": "Resume",            
             "page": "https://www.devrazec.com/assets/resume.pdf",
             "externalLink": true,
             "active": true
         },
         "4": {
             "sort": "5",
-            "name": "Price",
             "slug": "price",
+            "name": "Price",            
             "page": "price.html",
             "externalLink": false,
             "active": true
         },
         "5": {
             "sort": "6",
-            "name": "Contact",
             "slug": "contact",
+            "name": "Contact",            
             "page": "https://www.linkedin.com/in/maxchip/",
             "externalLink": true,
             "active": true
         },
         "6": {
             "sort": "7",
-            "name": "Users",
             "slug": "users",
+            "name": "Users",            
             "page": "users.html",
             "externalLink": false,
             "active": false
@@ -83,77 +84,63 @@
     "page": {        
         "0": {
             "sort": "1",
-            "title": "Home",
             "menuSlug": "home",
-            "keywords": "",
-            "description": "",
-            "content": "Welcome to your Home.",
+            "title": "Home",
             "image": "",
-            "active": false 
+            "content": "Welcome to your Home.",
+            "active": false
         },
         "1": {
             "sort": "4",
-            "title": "Services",
             "menuSlug": "services",
-            "keywords": "",
-            "description": "",
-            "content": "Welcome to your Services.",
+            "title": "Services",
             "image": "",
-            "active": true 
+            "content": "Welcome to your Services.",
+            "active": true
         },
         "2": {
             "sort": "2",
-            "title": "Portfolio",
             "menuSlug": "portfolio",
-            "keywords": "",
-            "description": "",
-            "content": "Welcome to your Portfolio.",
+            "title": "Portfolio",
             "image": "",
-            "active": true 
+            "content": "Welcome to your Portfolio.",
+            "active": true
         },
         "3": {
             "sort": "3",
-            "title": "Price",
             "menuSlug": "Price",
-            "keywords": "",
-            "description": "",           
-            "content": "Welcome to your Price.",
+            "title": "Price",
             "image": "",
-            "active": true 
+            "content": "Welcome to your Price.",
+            "active": true
         },
         "4": {
             "sort": "6",
-            "title": "404",
             "menuSlug": "",
-            "keywords": "404",
-            "description": "404",            
-            "content": "404 - Page not found",
+            "title": "404",
             "image": "",
-            "active": true            
+            "content": "404 - Page not found",
+            "active": true
         }          
     },    
     
     "post": {        
         "0": {
             "sort": "1",
-            "title": "Post 1",            
+            "title": "Post 1",
             "date": "10 Sep 2023",
             "user": "Admin1",
-            "keywords": "",
-            "description": "",
-            "content": "Post 1",
             "image": "",
-            "active": false 
+            "content": "Post 1",
+            "active": false
         },
         "1": {
             "sort": "4",
             "title": "Post 2",
             "date": "10 Sep 2023",
             "user": "Admin1",
-            "keywords": "",
-            "description": "",
-            "content": "Post 2",
             "image": "",
+            "content": "Post 2",
             "active": true 
         },
         "2": {
@@ -161,33 +148,27 @@
             "title": "Post 3",
             "date": "10 Sep 2023",
             "user": "Admin1",
-            "keywords": "",
-            "description": "",
-            "content": "Post 3",
             "image": "",
-            "active": true 
+            "content": "Post 3",
+            "active": true
         },
         "3": {
             "sort": "3",
             "title": "Post 4",
             "date": "10 Sep 2023",
             "user": "Admin1",
-            "keywords": "",
-            "description": "",           
+            "image": "",                   
             "content": "Post 4",
-            "image": "",
-            "active": false 
+            "active": false
         },
         "4": {
             "sort": "6",
             "title": "Post 5",
             "date": "10 Sep 2023",
             "user": "Admin1",
-            "keywords": "",
-            "description": "",            
-            "content": "Post 5",
             "image": "",
-            "active": true            
+            "content": "Post 5",
+            "active": true
         }          
     } 
 }

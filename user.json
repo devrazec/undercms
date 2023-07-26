@@ -1,21 +1,22 @@
 {
     "config": {
-        "siteTitle": "UnderCMS",
+        "pageTitle": "UnderCMS",
+        "keywords": "",
+        "description": "",
         "logoName": "UnderCMS",
         "logoImage": "logo.png",
         "faviconImage": "favicon.png",
         "defaultPage": "user.html",
         "defaultMenu": "post",
         "style": "style.css",                      
-        "activeAdminLogin": false,  
-        "activeUserLogin": true,       
+        "activeLogin": true,                
         "pageHeader": {
-            "content": "UnderCMS is a simple, fast, and modern CMS.",
+            "content": "UnderCMS is a simple, fast, and modern CMS",
             "backgroundColor": "#cca463",
             "backgroundImage": ""
         },       
         "pageFooter": { 
-            "content": "2023 Created by Devrazec.",
+            "content": "UnderCMS 2023 - Created by Devrazec",
             "backgroundColor": "#cca463",
             "backgroundImage": ""
         }       
@@ -24,32 +25,32 @@
     "menu": {
         "0": {
             "sort": "1",
+            "slug": "userhome",
             "name": "Home",
-            "slug": "home",
             "page": "#section1",
             "externalLink": false,
-            "active": false
+            "active": true
         },
         "1": {
             "sort": "4",
-            "name": "Users",
-            "slug": "users",
+            "slug": "user",
+            "name": "User",
             "page": "#section2",
             "externalLink": false,
             "active": true
         },
         "2": {
             "sort": "2",
-            "name": "Posts",
-            "slug": "posts",
+            "slug": "post",
+            "name": "Post",
             "page": "#section3",
             "externalLink": false,
             "active": true
         },        
         "3": {
             "sort": "3",
-            "name": "Images",
-            "slug": "Images",
+            "slug": "Image",
+            "name": "Image",
             "page": "#section4",
             "externalLink": false,
             "active": true
@@ -59,39 +60,35 @@
     "page": {        
         "0": {
             "sort": "1",
+            "menuSlug": "userhome",
             "title": "Home",
-            "menuSlug": "home",
-            "keywords": "",
-            "description": "",
+            "image": "",
             "content": "Welcome to your Home.",
-            "active": false 
+            "active": true
         },
         "1": {
             "sort": "4",
-            "title": "Users",
-            "menuSlug": "users",
-            "keywords": "",
-            "description": "",
+            "menuSlug": "user",
+            "title": "User",
+            "image": "",
             "content": "Welcome to your Users.",
             "active": true 
         },
         "2": {
             "sort": "2",
-            "title": "Posts",
-            "menuSlug": "posts",
-            "keywords": "",
-            "description": "",
+            "menuSlug": "post",
+            "title": "Post",
+            "image": "",
             "content": "Welcome to your Posts.",
-            "active": true 
+            "active": true
         },
         "3": {
             "sort": "3",
-            "title": "Images",
-            "menuSlug": "images",
-            "keywords": "",
-            "description": "",           
+            "menuSlug": "image",
+            "title": "Image",
+            "image": "",
             "content": "Welcome to your Images.",
-            "active": true 
+            "active": true
         }        
     },
 
@@ -99,37 +96,47 @@
         "0": {
             "sort": "1",
             "name": "User1",
+            "image": "",
+            "content": "",
             "email": "maxchip@outlook.com",
-            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
-            "active": true 
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
+            "active": true
         },
         "1": {
             "sort": "2",
             "name": "User2",
+            "image": "",
+            "content": "",
             "email": "maxchip@outlook.com",
-            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
-            "active": true 
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
+            "active": true
         },
         "2": {
             "sort": "5",
             "name": "User3",
+            "image": "",
+            "content": "",
             "email": "maxchip@outlook.com",
-            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
-            "active": true 
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
+            "active": true
         },
         "3": {
             "sort": "4",
             "name": "User4",
+            "image": "",
+            "content": "",
             "email": "maxchip@outlook.com",
-            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
-            "active": true  
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
+            "active": true
         },
         "4": {
             "sort": "3",
             "name": "User5",
+            "image": "",
+            "content": "",
             "email": "maxchip@outlook.com",
-            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
-            "active": true           
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
+            "active": false
         }
     }
 }
