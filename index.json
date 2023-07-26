@@ -7,7 +7,7 @@
         "logoImage": "logo.png",
         "faviconImage": "favicon.png",
         "defaultPage": "index.html",
-        "defaultMenu": "home",
+        "defaultMenu": "project",
         "style": "style.css",                              
         "activeLogin": true,       
         "pageHeader": {
@@ -41,9 +41,9 @@
         },
         "2": {
             "sort": "3",
-            "slug": "portfolio",
-            "name": "Portfolio",            
-            "page": "#section2",
+            "slug": "project",
+            "name": "Project",            
+            "page": "#section3",
             "externalLink": false,
             "active": true
         },
@@ -64,7 +64,7 @@
             "active": true
         },
         "5": {
-            "sort": "6",
+            "sort": "8",
             "slug": "contact",
             "name": "Contact",            
             "page": "https://www.linkedin.com/in/maxchip/",
@@ -75,9 +75,25 @@
             "sort": "7",
             "slug": "users",
             "name": "Users",            
-            "page": "users.html",
+            "page": "#section4",
             "externalLink": false,
             "active": false
+        },
+        "7": {
+            "sort": "6",
+            "slug": "blog",
+            "name": "Blog",            
+            "page": "#section5",
+            "externalLink": false,
+            "active": true
+        },
+        "8": {
+            "sort": "7",
+            "slug": "about",
+            "name": "About Us",            
+            "page": "#section6",
+            "externalLink": false,
+            "active": true
         }
     },        
         
@@ -115,11 +131,27 @@
             "active": true
         },
         "4": {
-            "sort": "6",
+            "sort": "5",
             "menuSlug": "",
             "title": "404",
             "image": "",
             "content": "404 - Page not found",
+            "active": true
+        },
+        "5": {
+            "sort": "6",
+            "menuSlug": "blog",
+            "title": "Blog",
+            "image": "",
+            "content": "Welcome to your Blog.",
+            "active": true
+        },
+        "6": {
+            "sort": "6",
+            "menuSlug": "about",
+            "title": "About Us",
+            "image": "",
+            "content": "Welcome to your About.",
             "active": true
         }          
     },    
