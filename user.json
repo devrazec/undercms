@@ -5,12 +5,20 @@
         "logoImage": "logo.png",
         "faviconImage": "favicon.png",
         "defaultPage": "user.html",
-        "defaultMenu": "home",
+        "defaultMenu": "post",
         "style": "style.css",                      
         "activeAdminLogin": false,  
         "activeUserLogin": true,       
-        "pageHeader": "UnderCMS is a simple, fast, and modern CMS.",       
-        "pageFooter": "2023 Created by Devrazec."        
+        "pageHeader": {
+            "content": "UnderCMS is a simple, fast, and modern CMS.",
+            "backgroundColor": "#cca463",
+            "backgroundImage": ""
+        },       
+        "pageFooter": { 
+            "content": "2023 Created by Devrazec.",
+            "backgroundColor": "#cca463",
+            "backgroundImage": ""
+        }       
     },
     
     "menu": {
@@ -20,56 +28,32 @@
             "slug": "home",
             "page": "#section1",
             "externalLink": false,
-            "active": true
+            "active": false
         },
         "1": {
-            "sort": "2",
-            "name": "Services",
-            "slug": "services",
+            "sort": "4",
+            "name": "Users",
+            "slug": "users",
             "page": "#section2",
             "externalLink": false,
             "active": true
         },
         "2": {
-            "sort": "3",
-            "name": "Portfolio",
-            "slug": "portfolio",
-            "page": "#section2",
+            "sort": "2",
+            "name": "Posts",
+            "slug": "posts",
+            "page": "#section3",
             "externalLink": false,
             "active": true
-        },
+        },        
         "3": {
-            "sort": "4",
-            "name": "Resume",
-            "slug": "resume",
-            "page": "https://www.devrazec.com/assets/resume.pdf",
-            "externalLink": true,
-            "active": true
-        },
-        "4": {
-            "sort": "5",
-            "name": "Price",
-            "slug": "price",
-            "page": "price.html",
+            "sort": "3",
+            "name": "Images",
+            "slug": "Images",
+            "page": "#section4",
             "externalLink": false,
             "active": true
-        },
-        "5": {
-            "sort": "6",
-            "name": "Contact",
-            "slug": "contact",
-            "page": "https://www.linkedin.com/in/maxchip/",
-            "externalLink": true,
-            "active": true
-        },
-        "6": {
-            "sort": "7",
-            "name": "Users",
-            "slug": "users",
-            "page": "users.html",
-            "externalLink": false,
-            "active": false
-        }
+        }        
     },        
     
     "page": {        
@@ -84,40 +68,31 @@
         },
         "1": {
             "sort": "4",
-            "title": "Services",
-            "menuSlug": "services",
+            "title": "Users",
+            "menuSlug": "users",
             "keywords": "",
             "description": "",
-            "content": "Welcome to your Services.",
+            "content": "Welcome to your Users.",
             "active": true 
         },
         "2": {
             "sort": "2",
-            "title": "Portfolio",
-            "menuSlug": "portfolio",
+            "title": "Posts",
+            "menuSlug": "posts",
             "keywords": "",
             "description": "",
-            "content": "Welcome to your Portfolio.",
+            "content": "Welcome to your Posts.",
             "active": true 
         },
         "3": {
             "sort": "3",
-            "title": "Price",
-            "menuSlug": "Price",
+            "title": "Images",
+            "menuSlug": "images",
             "keywords": "",
             "description": "",           
-            "content": "Welcome to your Price.",
+            "content": "Welcome to your Images.",
             "active": true 
-        },
-        "4": {
-            "sort": "6",
-            "title": "404",
-            "menuSlug": "",
-            "keywords": "404",
-            "description": "404",            
-            "content": "404 - Page not found",
-            "active": true            
-        }
+        }        
     },
 
     "user": {        

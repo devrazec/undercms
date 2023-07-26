@@ -9,8 +9,16 @@
         "style": "style.css",                      
         "activeAdminLogin": true,  
         "activeUserLogin": true,       
-        "pageHeader": "UnderCMS is a simple, fast, and modern CMS.",       
-        "pageFooter": "2023 Created by Devrazec."
+        "pageHeader": {
+            "content": "UnderCMS is a simple, fast, and modern CMS.",
+            "backgroundColor": "#cca463",
+            "backgroundImage": ""
+        },       
+        "pageFooter": { 
+            "content": "2023 Created by Devrazec.",
+            "backgroundColor": "#cca463",
+            "backgroundImage": ""
+        }
     },   
     
     "menu": {
@@ -80,6 +88,7 @@
             "keywords": "",
             "description": "",
             "content": "Welcome to your Home.",
+            "image": "",
             "active": false 
         },
         "1": {
@@ -89,6 +98,7 @@
             "keywords": "",
             "description": "",
             "content": "Welcome to your Services.",
+            "image": "",
             "active": true 
         },
         "2": {
@@ -98,6 +108,7 @@
             "keywords": "",
             "description": "",
             "content": "Welcome to your Portfolio.",
+            "image": "",
             "active": true 
         },
         "3": {
@@ -107,6 +118,7 @@
             "keywords": "",
             "description": "",           
             "content": "Welcome to your Price.",
+            "image": "",
             "active": true 
         },
         "4": {
@@ -116,7 +128,66 @@
             "keywords": "404",
             "description": "404",            
             "content": "404 - Page not found",
+            "image": "",
             "active": true            
         }          
-    }    
+    },    
+    
+    "post": {        
+        "0": {
+            "sort": "1",
+            "title": "Post 1",            
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "keywords": "",
+            "description": "",
+            "content": "Post 1",
+            "image": "",
+            "active": false 
+        },
+        "1": {
+            "sort": "4",
+            "title": "Post 2",
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "keywords": "",
+            "description": "",
+            "content": "Post 2",
+            "image": "",
+            "active": true 
+        },
+        "2": {
+            "sort": "2",
+            "title": "Post 3",
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "keywords": "",
+            "description": "",
+            "content": "Post 3",
+            "image": "",
+            "active": true 
+        },
+        "3": {
+            "sort": "3",
+            "title": "Post 4",
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "keywords": "",
+            "description": "",           
+            "content": "Post 4",
+            "image": "",
+            "active": false 
+        },
+        "4": {
+            "sort": "6",
+            "title": "Post 5",
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "keywords": "",
+            "description": "",            
+            "content": "Post 5",
+            "image": "",
+            "active": true            
+        }          
+    } 
 }

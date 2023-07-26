@@ -9,32 +9,40 @@
         "style": "style.css",
         "activeAdminLogin": true,
         "activeUserLogin": true,                                  
-        "pageHeader": "UnderCMS is a simple, fast, and modern CMS.",       
-        "pageFooter": "2023 Created by Devrazec."
+        "pageHeader": {
+            "content": "UnderCMS is a simple, fast, and modern CMS.",
+            "backgroundColor": "#cca463",
+            "backgroundImage": ""
+        },       
+        "pageFooter": { 
+            "content": "2023 Created by Devrazec.",
+            "backgroundColor": "#cca463",
+            "backgroundImage": ""
+        }
     },
     
     "menu": {
         "0": {
             "sort": "1",
-            "name": "Home",
-            "slug": "home",
+            "name": "Index Config",
+            "slug": "indexconfig",
             "page": "#section1",
             "externalLink": false,
-            "active": true
+            "active": false
         },
         "1": {
             "sort": "2",
-            "name": "Services",
-            "slug": "services",
+            "name": "User Config",
+            "slug": "userconfig",
             "page": "#section2",
             "externalLink": false,
             "active": true
         },
         "2": {
             "sort": "3",
-            "name": "Portfolio",
-            "slug": "portfolio",
-            "page": "#section2",
+            "name": "Admin Config",
+            "slug": "adminconfig",
+            "page": "#section3",
             "externalLink": false,
             "active": true
         },
@@ -84,20 +92,20 @@
         },
         "1": {
             "sort": "4",
-            "title": "Services",
-            "menuSlug": "services",
+            "title": "Pages",
+            "menuSlug": "pages",
             "keywords": "",
             "description": "",
-            "content": "Welcome to your Services.",
+            "content": "Welcome to your Pages.",
             "active": true 
         },
         "2": {
             "sort": "2",
-            "title": "Portfolio",
-            "menuSlug": "portfolio",
+            "title": "Posts",
+            "menuSlug": "posts",
             "keywords": "",
             "description": "",
-            "content": "Welcome to your Portfolio.",
+            "content": "Welcome to your Posts.",
             "active": true 
         },
         "3": {
