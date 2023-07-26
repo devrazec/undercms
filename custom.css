@@ -1,0 +1,37 @@
+.p-navigation [class*=p-navigation__item].is-selected>.p-navigation__link, .p-navigation--sliding [class*=p-navigation__item].is-selected>.p-navigation__link {
+    background-color:#cca463; position:relative;
+    color: white;
+}
+
+.p-navigation .p-navigation__link:hover, .p-navigation .p-navigation__link--search-toggle:hover, .p-navigation .p-navigation__toggle--close:hover, .p-navigation .p-navigation__toggle--open:hover, .p-navigation .p-navigation__dropdown-item:hover, .p-navigation--sliding .p-navigation__link:hover, .p-navigation--sliding .p-navigation__link--search-toggle:hover, .p-navigation--sliding .p-navigation__toggle--close:hover, .p-navigation--sliding .p-navigation__toggle--open:hover, .p-navigation--sliding .p-navigation__dropdown-item:hover {
+    background-color:#ecd8bb
+}
+
+.p-tabs__link:active, .p-tabs__link[aria-pressed=true], .p-tabs__link[aria-selected=true], .p-tabs__link[aria-expanded=true] {
+    background-color:#cca463;
+    color: white;
+}
+
+/* .p-link--inverted {
+    color:#f99b11; font-weight:550
+}
+
+.p-link--inverted:hover {
+    color:#f99b11
+}
+
+.p-navigation .p-navigation__link:hover, .p-navigation .p-navigation__link--search-toggle:hover, .p-navigation .p-navigation__toggle--close:hover, .p-navigation .p-navigation__toggle--open:hover, .p-navigation .p-navigation__dropdown-item:hover, .p-navigation--sliding .p-navigation__link:hover, .p-navigation--sliding .p-navigation__link--search-toggle:hover, .p-navigation--sliding .p-navigation__toggle--close:hover, .p-navigation--sliding .p-navigation__toggle--open:hover, .p-navigation--sliding .p-navigation__dropdown-item:hover {
+    background-color:#f99b11
+}
+
+.p-search-and-filter .p-search-and-filter__search-prompt {
+    background:#f99b11; cursor:pointer; margin-left:-1rem; margin-right:-1rem; overflow:hidden; padding:1rem; text-overflow:ellipsis; white-space:nowrap
+}
+
+.p-strip--light {
+    background-color:#f99b11
+}
+
+.l-full-width__sidebar {
+    background:#f99b11; height:calc(100% - 3.5rem); min-height:calc(100vh - 3.5rem); position:absolute; width:15rem; z-index:1
+} */

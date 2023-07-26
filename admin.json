@@ -1,0 +1,160 @@
+{
+    "config": {
+        "siteTitle": "UnderCMS",
+        "logoName": "UnderCMS",
+        "logoImage": "logo.png",
+        "faviconImage": "favicon.png",
+        "defaultPage": "admin.html",
+        "defaultMenu": "home",
+        "style": "style.css",
+        "activeAdminLogin": true,
+        "activeUserLogin": true,                                  
+        "pageHeader": "UnderCMS is a simple, fast, and modern CMS.",       
+        "pageFooter": "2023 Created by Devrazec."
+    },
+    
+    "menu": {
+        "0": {
+            "sort": "1",
+            "name": "Home",
+            "slug": "home",
+            "page": "#section1",
+            "externalLink": false,
+            "active": true
+        },
+        "1": {
+            "sort": "2",
+            "name": "Services",
+            "slug": "services",
+            "page": "#section2",
+            "externalLink": false,
+            "active": true
+        },
+        "2": {
+            "sort": "3",
+            "name": "Portfolio",
+            "slug": "portfolio",
+            "page": "#section2",
+            "externalLink": false,
+            "active": true
+        },
+        "3": {
+            "sort": "4",
+            "name": "Resume",
+            "slug": "resume",
+            "page": "https://www.devrazec.com/assets/resume.pdf",
+            "externalLink": true,
+            "active": true
+        },
+        "4": {
+            "sort": "5",
+            "name": "Price",
+            "slug": "price",
+            "page": "price.html",
+            "externalLink": false,
+            "active": true
+        },
+        "5": {
+            "sort": "6",
+            "name": "Contact",
+            "slug": "contact",
+            "page": "https://www.linkedin.com/in/maxchip/",
+            "externalLink": true,
+            "active": true
+        },
+        "6": {
+            "sort": "7",
+            "name": "Users",
+            "slug": "users",
+            "page": "users.html",
+            "externalLink": false,
+            "active": false
+        }
+    },        
+    
+    "page": {        
+        "0": {
+            "sort": "1",
+            "title": "Home",
+            "menuSlug": "home",
+            "keywords": "",
+            "description": "",
+            "content": "Welcome to your Home.",
+            "active": false 
+        },
+        "1": {
+            "sort": "4",
+            "title": "Services",
+            "menuSlug": "services",
+            "keywords": "",
+            "description": "",
+            "content": "Welcome to your Services.",
+            "active": true 
+        },
+        "2": {
+            "sort": "2",
+            "title": "Portfolio",
+            "menuSlug": "portfolio",
+            "keywords": "",
+            "description": "",
+            "content": "Welcome to your Portfolio.",
+            "active": true 
+        },
+        "3": {
+            "sort": "3",
+            "title": "Price",
+            "menuSlug": "Price",
+            "keywords": "",
+            "description": "",           
+            "content": "Welcome to your Price.",
+            "active": true 
+        },
+        "4": {
+            "sort": "6",
+            "title": "404",
+            "menuSlug": "",
+            "keywords": "404",
+            "description": "404",            
+            "content": "<center><h1>404 - Page not found<\/h1><\/center>",
+            "active": true            
+        }
+    },
+
+    "admin": {        
+        "0": {
+            "sort": "1",
+            "name": "Admin1",
+            "email": "maxchip@outlook.com",
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
+            "active": true 
+        },
+        "1": {
+            "sort": "2",
+            "name": "Admin2",
+            "email": "maxchip@outlook.com",
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
+            "active": true 
+        },
+        "2": {
+            "sort": "5",
+            "name": "Admin3",
+            "email": "maxchip@outlook.com",
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
+            "active": true 
+        },
+        "3": {
+            "sort": "4",
+            "name": "Admin4",
+            "email": "maxchip@outlook.com",
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
+            "active": true  
+        },
+        "4": {
+            "sort": "3",
+            "name": "Admin5",
+            "email": "maxchip@outlook.com",
+            "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",            
+            "active": true           
+        }
+    }
+}
