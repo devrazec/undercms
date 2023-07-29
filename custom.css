@@ -1,17 +1,34 @@
-.p-navigation [class*=p-navigation__item].is-selected>.p-navigation__link, .p-navigation--sliding [class*=p-navigation__item].is-selected>.p-navigation__link {
-    background-color:#cca463; position:relative;
+/* .p-navigation [class*=p-navigation__item].is-selected>.p-navigation__link, .p-navigation--sliding [class*=p-navigation__item].is-selected>.p-navigation__link {
+    background-color:#262626; position:relative;
     color: white;
-}
+} */
 
-.p-navigation .p-navigation__link:hover, .p-navigation .p-navigation__link--search-toggle:hover, .p-navigation .p-navigation__toggle--close:hover, .p-navigation .p-navigation__toggle--open:hover, .p-navigation .p-navigation__dropdown-item:hover, .p-navigation--sliding .p-navigation__link:hover, .p-navigation--sliding .p-navigation__link--search-toggle:hover, .p-navigation--sliding .p-navigation__toggle--close:hover, .p-navigation--sliding .p-navigation__toggle--open:hover, .p-navigation--sliding .p-navigation__dropdown-item:hover {
+/* .p-navigation .p-navigation__link:hover, .p-navigation .p-navigation__link--search-toggle:hover, .p-navigation .p-navigation__toggle--close:hover, .p-navigation .p-navigation__toggle--open:hover, .p-navigation .p-navigation__dropdown-item:hover, .p-navigation--sliding .p-navigation__link:hover, .p-navigation--sliding .p-navigation__link--search-toggle:hover, .p-navigation--sliding .p-navigation__toggle--close:hover, .p-navigation--sliding .p-navigation__toggle--open:hover, .p-navigation--sliding .p-navigation__dropdown-item:hover {
     background-color:#ecd8bb
-}
+} */
 
-.p-tabs__link:active, .p-tabs__link[aria-pressed=true], .p-tabs__link[aria-selected=true], .p-tabs__link[aria-expanded=true] {
-    background-color:#cca463;
+/* .p-tabs__link:active, .p-tabs__link[aria-pressed=true], .p-tabs__link[aria-selected=true], .p-tabs__link[aria-expanded=true] {
+    background-color:#262626;
     color: white;
 }
+ */
+/* example structure styling to make panels visible */
+.app-demo > .l-navigation-bar,
+.app-demo > .l-main,
+.app-demo > .l-navigation .l-navigation__drawer,  
+.app-demo > .l-status {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    padding: 0.5rem;
+}
 
+.p-navigation__tagged-logo .p-navigation__logo-tag {
+    background-color: #262626;
+}
+
+.p-button--link:visited, a:visited {
+    color: #fff;
+}
 /* .p-link--inverted {
     color:#f99b11; font-weight:550
 }

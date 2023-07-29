@@ -29,15 +29,17 @@ function getUserJson(){
         let menuitems = "";
         for(let item of menus){
             if(item.slug === configs.defaultMenu) {
-                menuitems += `<li class="p-navigation__item is-selected">
-                                    <a class="p-navigation__link" href="#">${item.name}</a>
-                              </li>`;              
+                menuitems += `<li class="p-side-navigation__item">
+                                    <a class="p-side-navigation__link" href="#" aria-current="page">${item.name}      
+                                    </a>
+                              </li>`;             
             } else {
-                menuitems += `<li class="p-navigation__item">
-                                  <a class="p-navigation__link" href="#">${item.name}</a>
+                menuitems += `<li class="p-side-navigation__item">
+                                    <a class="p-side-navigation__link" href="#">${item.name}      
+                                    </a>
                               </li>`;              
-            }            
-        }        
+            } 
+        }   
         document.getElementById("user-menu").innerHTML = menuitems; 
         
         let page = JSON.stringify(data['page']);

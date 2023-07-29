@@ -51,46 +51,77 @@
 
   </head>
 
-  <body>
+  <body>  
 
-    <header id="navigation" class="p-navigation">
-        <div class="row p-navigation__row">
-          <div class="p-navigation__banner">
-            <div class="p-navigation__logo">
-              <a class="p-navigation__item" href="#">
-                <img src="./logo.png" alt="UnderCMS" class="p-contextual-menu__link">
-                <h1 class="p-heading--3">UnderCMS</h1>
-              </a>
-            </div>
-            <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-            <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
-          </div>
-          <nav class="p-navigation__nav u-image-position" aria-label="Example main">
-            <span class="u-off-screen">
-              <a href="#main-content">Jump to main content</a>
-            </span>
-            <ul id="user-menu" class="p-navigation__items">
-              
-            </ul>
-            <ul class="p-navigation__items u-image-position--right">
-              <li class="p-navigation__item">         
-                  <button class="p-navigation__link" style="border-width: 0.5px; border-style: solid;">
-                    <i class="p-icon--user"></i>
-                    <span class="p-side-navigation__label">Login</span>
-                  </button>          
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    
-    
-    <hr>
-    <footer class="">
-      <div class="row">
-        <p>UnderCMS 2023 - Created by Devrazec</p>    
-      </div>
-    </footer>
+      <header id="navigation" class="p-navigation is-dark">
+       <div class="l-full-width">
+         <div class="l-start">
+         <div class="p-navigation__banner">
+           <div class="p-navigation__tagged-logo">
+             <a class="p-navigation__link" href="#">
+               <div class="p-navigation__logo-tag">
+                 <img class="p-navigation__logo-icon" src="./logo.png" alt="UnderCMS">
+               </div>
+               <span class="p-navigation__logo-title">UnderCMS</span>
+             </a>
+           </div>            
+         </div>
+         </div>
+         <div class="l-main">
+           <div class="p-navigation__row u-fixed-width">
+         <nav class="p-navigation__nav" aria-label="Main">
+           <ul class="p-navigation__items">
+             <li class="p-navigation__item is-selected"><a class="p-navigation__link" href="#">Home</a></li>
+             <li class="p-navigation__item "><a class="p-navigation__link" href="./index.html">Index</a></li>
+             <li class="p-navigation__item"><a class="p-navigation__link" href="./admin.html">Admin</a></li>             
+           </ul>            
+         </nav>
+       </div>
+       </div>
+         <div class="l-end">
+         <nav class="p-navigation__nav p-navigation--right" style="width: auto">
+           <ul class="p-navigation__items" style="margin-left: auto">
+             <li class="p-navigation__item"><a class="p-navigation__link" href="./index.html">Sign out</a></li>
+           </ul>
+         </nav>
+         </div>
+       </div>
+       <div class="p-navigation__search-overlay"></div>
+     </header>
+     
+     <div class="l-full-width__sidebar">
+     
+       <div class="p-side-navigation is-sticky" id="side-navigation-drawer" aria-label="Side">
+         <div class="u-hide--large p-strip--light is-shallow">
+           <div class="u-fixed-width">
+             <button class="p-button has-icon u-no-margin js-drawer-toggle"><i class="p-icon--menu"></i><span>Contents</span></button>
+           </div>
+         </div>
+     
+         <div class="p-side-navigation__overlay js-drawer-toggle" aria-controls="side-navigation-drawer"></div>
+     
+         <nav class="p-side-navigation__drawer" aria-label="Example side">
+           <aside class="p-strip is-shallow">
+           <div class="p-side-navigation__drawer-header">
+             <a href="#" class="p-side-navigation__toggle--in-drawer js-drawer-toggle" aria-controls="drawer">
+               Toggle side navigation
+             </a>
+           </div>           
+           <ul id="user-menu" class="p-side-navigation__list">                          
+           </ul>
+         </aside>
+         </nav>
+       </div>
+     </div>
+     
+     <div class="p-strip--light is-shallow l-full-width">
+       <div class="l-main">
+         <div class="row">
+           <div class="col-6 col-medium-3"><h1 class="p-heading--2">User Panel</h1></div>
+           <div class="col-6 col-medium-3"><p>You can use UnderCMS in your projects in a few different ways. See <a href="#">Building with UnderCMS</a> and <a href="#">Customising UnderCMS</a> for more in-depth setup instructions.</p></div>
+         </div>
+       </div>
+     </div>                    
 
   </body>
 

@@ -53,7 +53,7 @@
 
   <body>
     
-    <header id="navigation" class="p-navigation">
+    <header id="navigation" class="p-navigation is-dark">
       <div class="row p-navigation__row">
         <div class="p-navigation__banner">
           <div class="p-navigation__logo">
@@ -73,11 +73,8 @@
             
           </ul>
           <ul class="p-navigation__items u-image-position--right">
-            <li class="p-navigation__item">         
-                <button class="p-navigation__link" style="border-width: 0.5px; border-style: solid;">
-                  <i class="p-icon--user"></i>
-                  <span class="p-side-navigation__label">Login</span>
-                </button>          
+            <li class="p-navigation__item">  
+              <a class="p-navigation__link" href="./admin.html">Login</a>                                        
             </li>
           </ul>
         </nav>
@@ -147,11 +144,7 @@
           </div>
         </div>
         <div class="col-9">
-          <form class="p-search-box">
-            <input aria-label="search" type="search" class="p-search-box__input" name="search" placeholder="Search" required="" autocomplete="on">
-            <button type="reset" class="p-search-box__reset"><i class="p-icon--close"></i></button>
-            <button type="submit" class="p-search-box__button"><i class="p-icon--search"></i></button>
-          </form>
+          
           <table aria-label="MAAS table example" class="p-table--mobile-card">
             <thead>
               <tr>
