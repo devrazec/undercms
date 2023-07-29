@@ -22,8 +22,8 @@
         }
     },   
     
-    "menu": {
-        "0": {
+    "menu": [
+        {
             "sort": "1",
             "slug": "home",
             "name": "Home",            
@@ -31,7 +31,7 @@
             "externalLink": false,
             "active": true
         },
-        "1": {
+        {
             "sort": "2",
             "slug": "services",
             "name": "Services",            
@@ -39,15 +39,15 @@
             "externalLink": false,
             "active": true
         },
-        "2": {
+        {
             "sort": "3",
             "slug": "project",
-            "name": "Project",            
+            "name": "Projects",            
             "page": "#section3",
             "externalLink": false,
             "active": true
         },
-        "3": {
+        {
             "sort": "4",
             "slug": "resume",
             "name": "Resume",            
@@ -55,7 +55,7 @@
             "externalLink": true,
             "active": true
         },
-        "4": {
+        {
             "sort": "5",
             "slug": "price",
             "name": "Price",            
@@ -63,7 +63,7 @@
             "externalLink": false,
             "active": true
         },
-        "5": {
+        {
             "sort": "8",
             "slug": "contact",
             "name": "Contact",            
@@ -71,7 +71,7 @@
             "externalLink": true,
             "active": true
         },
-        "6": {
+        {
             "sort": "7",
             "slug": "users",
             "name": "Users",            
@@ -79,7 +79,7 @@
             "externalLink": false,
             "active": false
         },
-        "7": {
+        {
             "sort": "6",
             "slug": "blog",
             "name": "Blog",            
@@ -87,7 +87,7 @@
             "externalLink": false,
             "active": true
         },
-        "8": {
+        {
             "sort": "7",
             "slug": "about",
             "name": "About Us",            
@@ -95,10 +95,10 @@
             "externalLink": false,
             "active": true
         }
-    },        
+    ],        
         
-    "page": {        
-        "0": {
+    "page": [        
+        {
             "sort": "1",
             "menuSlug": "home",
             "title": "Home",
@@ -106,7 +106,7 @@
             "content": "Welcome to your Home.",
             "active": false
         },
-        "1": {
+        {
             "sort": "4",
             "menuSlug": "services",
             "title": "Services",
@@ -114,7 +114,7 @@
             "content": "Welcome to your Services.",
             "active": true
         },
-        "2": {
+        {
             "sort": "2",
             "menuSlug": "portfolio",
             "title": "Portfolio",
@@ -122,7 +122,7 @@
             "content": "Welcome to your Portfolio.",
             "active": true
         },
-        "3": {
+        {
             "sort": "3",
             "menuSlug": "Price",
             "title": "Price",
@@ -130,7 +130,7 @@
             "content": "Welcome to your Price.",
             "active": true
         },
-        "4": {
+        {
             "sort": "5",
             "menuSlug": "",
             "title": "404",
@@ -138,7 +138,7 @@
             "content": "404 - Page not found",
             "active": true
         },
-        "5": {
+        {
             "sort": "6",
             "menuSlug": "blog",
             "title": "Blog",
@@ -146,7 +146,7 @@
             "content": "Welcome to your Blog.",
             "active": true
         },
-        "6": {
+        {
             "sort": "6",
             "menuSlug": "about",
             "title": "About Us",
@@ -154,10 +154,10 @@
             "content": "Welcome to your About.",
             "active": true
         }          
-    },    
+    ],    
     
-    "post": {        
-        "0": {
+    "post": [        
+        {
             "sort": "1",
             "title": "Post 1",
             "date": "10 Sep 2023",
@@ -166,7 +166,7 @@
             "content": "Post 1",
             "active": false
         },
-        "1": {
+        {
             "sort": "4",
             "title": "Post 2",
             "date": "10 Sep 2023",
@@ -175,7 +175,7 @@
             "content": "Post 2",
             "active": true 
         },
-        "2": {
+        {
             "sort": "2",
             "title": "Post 3",
             "date": "10 Sep 2023",
@@ -184,7 +184,7 @@
             "content": "Post 3",
             "active": true
         },
-        "3": {
+        {
             "sort": "3",
             "title": "Post 4",
             "date": "10 Sep 2023",
@@ -193,7 +193,7 @@
             "content": "Post 4",
             "active": false
         },
-        "4": {
+        {
             "sort": "6",
             "title": "Post 5",
             "date": "10 Sep 2023",
@@ -202,5 +202,5 @@
             "content": "Post 5",
             "active": true
         }          
-    } 
+    ] 
 }

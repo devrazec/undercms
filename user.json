@@ -22,8 +22,8 @@
         }       
     },
     
-    "menu": {
-        "0": {
+    "menu": [
+        {
             "sort": "1",
             "slug": "userhome",
             "name": "Home",
@@ -31,7 +31,7 @@
             "externalLink": false,
             "active": true
         },
-        "1": {
+        {
             "sort": "4",
             "slug": "user",
             "name": "User",
@@ -39,7 +39,7 @@
             "externalLink": false,
             "active": true
         },
-        "2": {
+        {
             "sort": "2",
             "slug": "post",
             "name": "Post",
@@ -47,7 +47,7 @@
             "externalLink": false,
             "active": true
         },        
-        "3": {
+        {
             "sort": "3",
             "slug": "Image",
             "name": "Image",
@@ -55,10 +55,10 @@
             "externalLink": false,
             "active": true
         }        
-    },        
+    ],        
     
-    "page": {        
-        "0": {
+    "page": [        
+        {
             "sort": "1",
             "menuSlug": "userhome",
             "title": "Home",
@@ -66,7 +66,7 @@
             "content": "Welcome to your Home.",
             "active": true
         },
-        "1": {
+        {
             "sort": "4",
             "menuSlug": "user",
             "title": "User",
@@ -74,7 +74,7 @@
             "content": "Welcome to your Users.",
             "active": true 
         },
-        "2": {
+        {
             "sort": "2",
             "menuSlug": "post",
             "title": "Post",
@@ -82,7 +82,7 @@
             "content": "Welcome to your Posts.",
             "active": true
         },
-        "3": {
+        {
             "sort": "3",
             "menuSlug": "image",
             "title": "Image",
@@ -90,10 +90,10 @@
             "content": "Welcome to your Images.",
             "active": true
         }        
-    },
+    ],
 
-    "user": {        
-        "0": {
+    "user": [        
+        {
             "sort": "1",
             "name": "User1",
             "image": "",
@@ -102,7 +102,7 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": true
         },
-        "1": {
+        {
             "sort": "2",
             "name": "User2",
             "image": "",
@@ -111,7 +111,7 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": true
         },
-        "2": {
+        {
             "sort": "5",
             "name": "User3",
             "image": "",
@@ -120,7 +120,7 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": true
         },
-        "3": {
+        {
             "sort": "4",
             "name": "User4",
             "image": "",
@@ -129,7 +129,7 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": true
         },
-        "4": {
+        {
             "sort": "3",
             "name": "User5",
             "image": "",
@@ -138,5 +138,5 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": false
         }
-    }
+    ]
 }

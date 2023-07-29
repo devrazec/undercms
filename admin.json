@@ -22,8 +22,8 @@
         }
     },
     
-    "menu": {
-        "0": {
+    "menu": [
+        {
             "sort": "1",
             "slug": "indexconfig",
             "name": "Index Config",
@@ -31,7 +31,7 @@
             "externalLink": false,
             "active": true
         },
-        "1": {
+        {
             "sort": "2",
             "slug": "userconfig",
             "name": "User Config",
@@ -39,7 +39,7 @@
             "externalLink": false,
             "active": true
         },
-        "2": {
+        {
             "sort": "3",
             "slug": "adminconfig",
             "name": "Admin Config",
@@ -47,7 +47,7 @@
             "externalLink": false,
             "active": true
         },
-        "3": {
+        {
             "sort": "4",
             "slug": "user",
             "name": "User",
@@ -55,7 +55,7 @@
             "externalLink": false,
             "active": true
         },
-        "4": {
+        {
             "sort": "5",
             "slug": "usersadmin",
             "name": "Admin",
@@ -63,7 +63,7 @@
             "externalLink": false,
             "active": true
         },
-        "5": {
+        {
             "sort": "6",
             "slug": "indexpage",
             "name": "Index Page",
@@ -71,7 +71,7 @@
             "externalLink": false,
             "active": true
         },
-        "6": {
+        {
             "sort": "7",
             "slug": "post",
             "name": "Post",
@@ -79,7 +79,7 @@
             "externalLink": false,
             "active": true
         },
-        "7": {
+        {
             "sort": "8",
             "slug": "usermenu",
             "name": "User Menu",
@@ -87,7 +87,7 @@
             "externalLink": false,
             "active": true
         },
-        "8": {
+        {
             "sort": "9",
             "slug": "adminmenu",
             "name": "Admin Menu",
@@ -95,7 +95,7 @@
             "externalLink": false,
             "active": true
         },
-        "9": {
+        {
             "sort": "10",
             "slug": "userpage",
             "name": "User Page",
@@ -103,7 +103,7 @@
             "externalLink": false,
             "active": true
         },
-        "10": {
+        {
             "sort": "1",
             "slug": "adminhome",
             "name": "Home",
@@ -111,10 +111,10 @@
             "externalLink": false,
             "active": true
         }
-    },        
+    ],        
     
-    "page": {        
-        "0": {
+    "page": [        
+        {
             "sort": "1",
             "menuSlug": "adminhome",
             "title": "Home",
@@ -122,7 +122,7 @@
             "content": "Welcome to your Admin Home.",
             "active": true
         },
-        "1": {
+        {
             "sort": "4",
             "menuSlug": "indexpage",
             "title": "Index Page",
@@ -130,7 +130,7 @@
             "content": "Welcome to your Index Page.",
             "active": true
         },
-        "2": {
+        {
             "sort": "2",
             "menuSlug": "userpage",
             "title": "User Page",
@@ -138,7 +138,7 @@
             "content": "Welcome to your User Page.",
             "active": true 
         },
-        "3": {
+        {
             "sort": "3",
             "menuSlug": "indexmenu",
             "title": "ìndex Menu",
@@ -146,7 +146,7 @@
             "content": "Welcome to your Index Menu.",
             "active": true 
         },
-        "4": {
+        {
             "sort": "6",
             "title": "User Menu",
             "menuSlug": "usermenu",
@@ -154,10 +154,10 @@
             "content": "Welcome to your User Menu.",
             "active": true            
         }
-    },
+    ],
 
-    "admin": {        
-        "0": {
+    "admin": [       
+        {
             "sort": "1",
             "name": "Admin1",
             "image": "",
@@ -166,7 +166,7 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": true
         },
-        "1": {
+        {
             "sort": "2",
             "name": "Admin2",
             "image": "",
@@ -175,7 +175,7 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": true
         },
-        "2": {
+        {
             "sort": "5",
             "name": "Admin3",
             "image": "",
@@ -184,7 +184,7 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": true
         },
-        "3": {
+        {
             "sort": "4",
             "name": "Admin4",
             "image": "",
@@ -193,7 +193,7 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": true
         },
-        "4": {
+        {
             "sort": "3",
             "name": "Admin5",
             "image": "",
@@ -202,5 +202,5 @@
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
             "active": true
         }
-    }
+    ]
 }
