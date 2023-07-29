@@ -9,7 +9,7 @@
         "defaultPage": "admin.html",
         "defaultMenu": "indexconfig",
         "style": "style.css",
-        "activeLogin": true,                                  
+        "activeLogin": "true",                                  
         "pageHeader": {
             "content": "UnderCMS is a simple, fast, and modern CMS",
             "backgroundColor": "#cca463",
@@ -28,88 +28,88 @@
             "slug": "indexconfig",
             "name": "Index Config",
             "page": "#section1",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "2",
             "slug": "userconfig",
             "name": "User Config",
             "page": "#section2",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "3",
             "slug": "adminconfig",
             "name": "Admin Config",
             "page": "#section3",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "4",
             "slug": "user",
             "name": "User",
             "page": "#section4",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "5",
             "slug": "usersadmin",
             "name": "Admin",
             "page": "#section5",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "6",
             "slug": "indexpage",
             "name": "Index Page",
             "page": "#section6",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "7",
             "slug": "post",
             "name": "Post",
             "page": "#section7",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "false"
         },
         {
             "sort": "8",
             "slug": "usermenu",
             "name": "User Menu",
             "page": "#section8",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "9",
             "slug": "adminmenu",
             "name": "Admin Menu",
             "page": "#section9",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "10",
             "slug": "userpage",
             "name": "User Page",
             "page": "#section10",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "1",
             "slug": "adminhome",
             "name": "Home",
             "page": "#section11",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         }
     ],        
     
@@ -120,7 +120,7 @@
             "title": "Home",
             "image": "",
             "content": "Welcome to your Admin Home.",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "4",
@@ -128,7 +128,7 @@
             "title": "Index Page",
             "image": "",
             "content": "Welcome to your Index Page.",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "2",
@@ -136,7 +136,7 @@
             "title": "User Page",
             "image": "",
             "content": "Welcome to your User Page.",
-            "active": true 
+            "active": "true" 
         },
         {
             "sort": "3",
@@ -144,7 +144,7 @@
             "title": "ìndex Menu",
             "image": "",
             "content": "Welcome to your Index Menu.",
-            "active": true 
+            "active": "true" 
         },
         {
             "sort": "6",
@@ -152,7 +152,7 @@
             "menuSlug": "usermenu",
             "image": "",
             "content": "Welcome to your User Menu.",
-            "active": true            
+            "active": "true"            
         }
     ],
 
@@ -164,7 +164,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "2",
@@ -173,7 +173,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "5",
@@ -182,7 +182,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "4",
@@ -191,7 +191,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "3",
@@ -200,7 +200,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": true
+            "active": "true"
         }
     ]
 }

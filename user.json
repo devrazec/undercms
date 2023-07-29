@@ -9,7 +9,7 @@
         "defaultPage": "user.html",
         "defaultMenu": "post",
         "style": "style.css",                      
-        "activeLogin": true,                
+        "activeLogin": "true",                
         "pageHeader": {
             "content": "UnderCMS is a simple, fast, and modern CMS",
             "backgroundColor": "#cca463",
@@ -28,32 +28,32 @@
             "slug": "userhome",
             "name": "Home",
             "page": "#section1",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },
         {
             "sort": "4",
             "slug": "user",
             "name": "User",
             "page": "#section2",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "false"
         },
         {
             "sort": "2",
             "slug": "post",
             "name": "Post",
             "page": "#section3",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         },        
         {
             "sort": "3",
             "slug": "Image",
             "name": "Image",
             "page": "#section4",
-            "externalLink": false,
-            "active": true
+            "externalLink": "false",
+            "active": "true"
         }        
     ],        
     
@@ -64,7 +64,7 @@
             "title": "Home",
             "image": "",
             "content": "Welcome to your Home.",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "4",
@@ -72,7 +72,7 @@
             "title": "User",
             "image": "",
             "content": "Welcome to your Users.",
-            "active": true 
+            "active": "true" 
         },
         {
             "sort": "2",
@@ -80,7 +80,7 @@
             "title": "Post",
             "image": "",
             "content": "Welcome to your Posts.",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "3",
@@ -88,7 +88,7 @@
             "title": "Image",
             "image": "",
             "content": "Welcome to your Images.",
-            "active": true
+            "active": "true"
         }        
     ],
 
@@ -100,7 +100,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "2",
@@ -109,7 +109,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "5",
@@ -118,7 +118,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "4",
@@ -127,7 +127,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": true
+            "active": "true"
         },
         {
             "sort": "3",
@@ -136,7 +136,7 @@
             "content": "",
             "email": "maxchip@outlook.com",
             "password": "$2y$10$ywIWTvzWII8xKmv\/p.MXJOJ7Q79p0OCtDWLRWLqlVMkKba3cWYw5e",
-            "active": false
+            "active": "false"
         }
     ]
 }

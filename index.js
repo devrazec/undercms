@@ -27,16 +27,18 @@ function getIndexJson() {
         let menus = JSON.parse(menu);
         menus.sort(funcSort);
         let menuitems = "";
-        for(let item of menus){
-            if(item.slug === configs.defaultMenu) {
-                menuitems += `<li class="p-navigation__item is-selected">
+        for(let item of menus) {
+            if(item.active === 'true') {
+                if(item.slug === configs.defaultMenu) {
+                    menuitems += `<li class="p-navigation__item is-selected">
+                                        <a class="p-navigation__link" href="#">${item.name}</a>
+                                  </li>`;              
+                } else {
+                    menuitems += `<li class="p-navigation__item">
                                     <a class="p-navigation__link" href="#">${item.name}</a>
-                              </li>`;              
-            } else {
-                menuitems += `<li class="p-navigation__item">
-                                  <a class="p-navigation__link" href="#">${item.name}</a>
-                              </li>`;              
-            }            
+                                  </li>`;              
+                }    
+            }        
         }        
         document.getElementById("index-menu").innerHTML = menuitems;  
         

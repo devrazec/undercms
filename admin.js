@@ -27,18 +27,20 @@ function getAdminJson(){
         let menus = JSON.parse(menu);
         menus.sort(funcSort);
         let menuitems = "";
-        for(let item of menus){
-            if(item.slug === configs.defaultMenu) {
-                menuitems += `<li class="p-side-navigation__item">
-                                    <a class="p-side-navigation__link" href="#" aria-current="page">${item.name}      
-                                    </a>
-                              </li>`;             
-            } else {
-                menuitems += `<li class="p-side-navigation__item">
-                                    <a class="p-side-navigation__link" href="#">${item.name}      
-                                    </a>
-                              </li>`;              
-            }            
+        for(let item of menus) {
+            if(item.active === 'true') {
+                if(item.slug === configs.defaultMenu) {
+                    menuitems += `<li class="p-side-navigation__item">
+                                        <a class="p-side-navigation__link" href="#" aria-current="page">${item.name}      
+                                        </a>
+                                  </li>`;             
+                } else {
+                    menuitems += `<li class="p-side-navigation__item">
+                                        <a class="p-side-navigation__link" href="#">${item.name}      
+                                        </a>
+                                  </li>`;              
+                } 
+            }           
         }        
         document.getElementById("admin-menu").innerHTML = menuitems;            
 
