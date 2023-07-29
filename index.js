@@ -41,6 +41,11 @@ function getIndexJson() {
             }        
         }        
         document.getElementById("index-menu").innerHTML = menuitems;  
+
+        // Fill pageHeader
+        document.getElementById('index-header-content').textContent = configs.pageHeader.content;
+        document.getElementById("index-header-color").style.backgroundColor = configs.pageHeader.backgroundColor;
+        document.getElementById("index-header-color").style.backgroundImage = configs.pageHeader.backgroundImage;
         
         let page = JSON.stringify(data['page']);
         let pages = JSON.parse(page);
