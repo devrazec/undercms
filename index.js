@@ -2,6 +2,7 @@ document.onreadystatechange = function () {
     if (document.readyState == "complete") {
       console.log("ready!");
       getIndexJson();
+      loadIndexJson();
     }
 }
   
@@ -57,10 +58,49 @@ function getIndexJson() {
 
         //alert(menus);
 
-        console.log(configs);
-        console.log(menus);
-        console.log(pages);
-        console.log(posts);    
+        //console.log(configs);
+        //console.log(menus);
+        //console.log(pages);
+        //console.log(posts);    
 
-    });
+    });    
 }
+
+// Post index json file to update
+function updateIndexJson(data) {
+
+    var url = "./index.php";        
+    var xhr = new XMLHttpRequest();     
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {                                                   
+            var response = JSON.parse(this.responseText); 
+            console.log(response);
+            console.log("JS Success!!!");
+        }
+    };  
+    
+    xhr.open("POST", url, true);  
+    xhr.setRequestHeader("Content-type", "application/json");
+    xhr.send(JSON.stringify(data));     
+}
+
+// Load index json file to update
+function loadIndexJson() {
+
+    var url = "./index.json";
+    var xhr = new XMLHttpRequest();     
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {        
+            var data = JSON.parse(this.responseText);            
+            data.config.description = "Test of descripton";                               
+
+            updateIndexJson(data);
+            console.log(data);            
+        }
+    };  
+    
+    xhr.open("GET", url, true);       
+    xhr.send();     
+}
+
+ 
