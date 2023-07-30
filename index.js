@@ -1,6 +1,6 @@
 document.onreadystatechange = function () {
     if (document.readyState == "complete") {
-      console.log("ready!");
+      console.log("Success in HTML onreadystatechange()");
       getIndexJson();
       loadIndexJson();
     }
@@ -69,36 +69,46 @@ function getIndexJson() {
 // Post index json file to update
 function updateIndexJson(data) {
 
-    var url = "./index.php";        
-    var xhr = new XMLHttpRequest();     
+    let url = "./index.php";        
+    let xhr = new XMLHttpRequest();     
+
+    xhr.onloadend = function() {
+        if (xhr.status == 404) 
+        console.log("Error in JS updateIndexJson()");
+    }
     xhr.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {                                                   
-            var response = JSON.parse(this.responseText); 
+            let response = JSON.parse(this.responseText); 
+            console.log("Success in JS updateIndexJson()");
             console.log(response);
-            console.log("JS Success!!!");
         }
     };  
-    
     xhr.open("POST", url, true);  
     xhr.setRequestHeader("Content-type", "application/json");
     xhr.send(JSON.stringify(data));     
 }
 
-// Load index json file to update
+// Get index json file to update
 function loadIndexJson() {
 
-    var url = "./index.json";
-    var xhr = new XMLHttpRequest();     
+    let url = "./index.json";
+    let xhr = new XMLHttpRequest();  
+    
+    xhr.onloadend = function() {
+        if (xhr.status == 404) 
+        console.log("Error in JS loadIndexJson()");
+    }
+
     xhr.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {        
-            var data = JSON.parse(this.responseText);            
+            let data = JSON.parse(this.responseText);            
             data.config.description = "Test of descripton";                               
 
             updateIndexJson(data);
-            console.log(data);            
+            //console.log(data); 
+            console.log("Success in JS loadIndexJson()");           
         }
     };  
-    
     xhr.open("GET", url, true);       
     xhr.send();     
 }
