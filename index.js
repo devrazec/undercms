@@ -14,7 +14,7 @@ function funcSort(a, b) {
 // Load index json file
 function getIndexJson() {
     
-    fetch("index.json")
+    fetch("./index.json")
     .then(function(response){
         return response.json();
     })
@@ -63,19 +63,21 @@ function getIndexJson() {
         //console.log(pages);
         //console.log(posts);    
 
-    });    
+    })
+    .catch((error) => console.log("Error in JS getIndexJson(): " + error));    
 }
 
 // Post index json file to update
-function updateIndexJson(data) {
+function updateIndexJson(data) { 
 
-    let url = "./index.php";        
+    let url = "./indexphp.php";        
     let xhr = new XMLHttpRequest();     
 
     xhr.onloadend = function() {
         if (xhr.status == 404) 
         console.log("Error in JS updateIndexJson()");
-    }
+    };
+
     xhr.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {                                                   
             let response = JSON.parse(this.responseText); 
@@ -83,9 +85,10 @@ function updateIndexJson(data) {
             console.log(response);
         }
     };  
+
     xhr.open("POST", url, true);  
     xhr.setRequestHeader("Content-type", "application/json");
-    xhr.send(JSON.stringify(data));     
+    xhr.send(JSON.stringify(data));        
 }
 
 // Get index json file to update
@@ -97,18 +100,18 @@ function loadIndexJson() {
     xhr.onloadend = function() {
         if (xhr.status == 404) 
         console.log("Error in JS loadIndexJson()");
-    }
+    };
 
     xhr.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {        
             let data = JSON.parse(this.responseText);            
             data.config.description = "Test of descripton";                               
 
-            updateIndexJson(data);
-            //console.log(data); 
+            updateIndexJson(data);            
             console.log("Success in JS loadIndexJson()");           
         }
     };  
+
     xhr.open("GET", url, true);       
     xhr.send();     
 }

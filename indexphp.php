@@ -1,4 +1,12 @@
 <?php
+/**
+* This file is part of UnderCMS, simple, fast, and modern CMS.
+*
+* @author       Cezar Souza <maxchip@outlook.com>
+* @copyright    2023 Created by Devrazec
+* @license      https://github.com/devrazec/undercms
+* @link         https://undercms.com
+*/
     // Name file json
     $file_json = "./index.json"; 
     
@@ -23,8 +31,7 @@
         // Text message
         header("Content-type: application/json");
         echo json_encode("Errors in PHP file_exists()");
-    }
-            
+    }            
     
     //var_dump($data_json);
     //print_r($data_json);
