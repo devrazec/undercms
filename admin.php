@@ -22,7 +22,7 @@
         //die();
 
         if ($data_json) {
-            $fh = fopen($index_json, 'w') or die("Error in indexphp.php file_exists()");
+            $fh = fopen($index_json, 'w') or die("Error in admin.php file_exists()");
             $array_json['data'] = $data_json;
             $string_data = json_encode($array_json['data']); 
 
@@ -32,16 +32,16 @@
 
             // Text message
             header("Content-type: application/json");
-            echo json_encode("Success in indexphp.php fwrite()");
+            echo json_encode("Success in admin.php fwrite()");
         } else {
             // Text message
             header("Content-type: application/json");
-            echo json_encode("Error in indexphp.php file_get_contents()");
+            echo json_encode("Error in admin.php file_get_contents()");
         }           
     } else {
         // Text message
         header("Content-type: application/json");
-        echo json_encode("Error in indexphp.php file_exists()");
+        echo json_encode("Error in admin.php file_exists()");
     }            
     
     //var_dump($data_json);
