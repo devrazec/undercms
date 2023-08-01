@@ -87,141 +87,151 @@
       </div>
     </div>
   </div>
-  <div class="p-strip is-shallow">
-    <nav class="p-tabs" aria-label="Example tabs">
-      <div class="row">
-        <ul class="p-tabs__list" role="tablist">
-          <li class="p-tabs__item" role="presentation">
-            <a href="#section1" class="p-tabs__link" tabindex="0" aria-controls="section1" aria-selected="true">Template
-              1</a>
-          </li>
-          <li class="p-tabs__item" role="presentation">
-            <a href="#section2" class="p-tabs__link" tabindex="-1" aria-controls="section2">Template 2</a>
-          </li>
-          <li class="p-tabs__item" role="presentation">
-            <a href="#section3" class="p-tabs__link" tabindex="-1" aria-controls="section3">Template 3</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="row">
-      <div class="col-3">
-        <div class="">
-          <h4 class="u-sv-1">Filter by</h4>
-
-          <aside class="p-accordion">
-            <ul class="p-accordion__list">
-              <li class="p-accordion__group">
-                <button type="button" class="p-accordion__tab" id="project" aria-controls="project-section"
-                  aria-expanded="false">Index Page</button>
-              </li>
-              <li class="p-accordion__group">
-                <button type="button" class="p-accordion__tab" id="time" aria-controls="time-section"
-                  aria-expanded="false">User Panel</button>
-              </li>
-              <li class="p-accordion__group">
-                <button type="button" class="p-accordion__tab" id="status" aria-controls="status-section"
-                  aria-expanded="false">Admin Panel</button>
-              </li>
-            </ul>
-          </aside>
+  <div class="p-strip is-shallow">    
+    <div class="row">  
+      
+      <div class="p-tabs">
+        <div class="p-tabs__list" role="tablist" aria-label="Templates">
+          <div class="p-tabs__item">
+            <button class="p-tabs__link" role="tab" aria-selected="true" aria-controls="templates-tab" id="templates">Templates</button>
+          </div>
+          <div class="p-tabs__item">
+            <button class="p-tabs__link" role="tab" aria-selected="false" aria-controls="features-tab" id="features" tabindex="-1">Features</button>
+          </div>
+          <div class="p-tabs__item">
+            <button class="p-tabs__link" role="tab" aria-selected="false" aria-controls="installationtab" id="installation" tabindex="-1">Installation</button>
+          </div>
+          <div class="p-tabs__item">
+            <button class="p-tabs__link" role="tab" aria-selected="false" aria-controls="support-tab" id="support" tabindex="-1">Support</button>
+          </div>          
         </div>
-      </div>
-      <div class="col-9">
+      
+        <div tabindex="0" role="tabpanel" id="templates-tab" aria-labelledby="templates">
+          <div class="row--25-75 is-split-on-medium">
+            <div class="col">  
+              <div class="p-section">
+                <p class="p-heading--2">UnderCMS</p>
+                <img src="./logo.png" alt="">
+              </div>           
+            </div>
+            <div class="col">
+              <div class="p-section">  
+                <p class="p-heading--3">Content Management Systems (CMS) are necessary for building any website. Types of CMS vary depending on the needs of the website and often smaller CMS are more effective for building website faster, such as the UnderCMS.</p>
+                <img src="./images/templates.gif" alt="">
+              </div>           
+            </div>
+          </div>           
+        </div>                           
+      
+        <div tabindex="0" role="tabpanel" id="features-tab" aria-labelledby="features" hidden="hidden">
+          <div class="row--25-75 is-split-on-medium">
+            <div class="col">  
+              <div class="p-section">
+                <p class="p-heading--2">UnderCMS</p>
+                <img src="./logo.png" alt="">
+              </div>           
+            </div>
+            <div class="col">
+              <div class="p-section">     
+                <p class="p-heading--2">Features</p>
+                <p class="p-heading--3">Content Management Systems (CMS) are necessary for building any website.</p>
+              </div>           
+            </div>
+          </div>           
+        </div>
 
-        <table aria-label="MAAS table example" class="p-table--mobile-card">
-          <thead>
-            <tr>
-              <th>FQDN | MAC</th>
-              <th>Power</th>
-              <th>Status</th>
-              <th>Owner | Pool</th>
-              <th class="u-align--right">Cores</th>
-              <th class="u-align--right">RAM(GB)</th>
-              <th class="u-align--right">Disks</th>
-              <th class="u-align--right">Storage(GB)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th data-heading="FQDN | MAC">Machine 1</th>
-              <td data-heading="Power">Off</td>
-              <td data-heading="Status">Ready</td>
-              <td data-heading="Owner | Pool">Maria</td>
-              <td data-heading="Cores" class="u-align--right">8</td>
-              <td data-heading="RAM(GB)" class="u-align--right">16</td>
-              <td data-heading="Disks" class="u-align--right">2</td>
-              <td data-heading="Storage(GB)" class="u-align--right">2</td>
-            </tr>
-            <tr>
-              <th data-heading="FQDN | MAC">Machine 1</th>
-              <td data-heading="Power">Off</td>
-              <td data-heading="Status">Ready</td>
-              <td data-heading="Owner | Pool">Maria</td>
-              <td data-heading="Cores" class="u-align--right">8</td>
-              <td data-heading="RAM(GB)" class="u-align--right">16</td>
-              <td data-heading="Disks" class="u-align--right">2</td>
-              <td data-heading="Storage(GB)" class="u-align--right">2</td>
-            </tr>
-            <tr>
-              <th data-heading="FQDN | MAC">Machine 1</th>
-              <td data-heading="Power">Off</td>
-              <td data-heading="Status">Ready</td>
-              <td data-heading="Owner | Pool">Maria</td>
-              <td data-heading="Cores" class="u-align--right">8</td>
-              <td data-heading="RAM(GB)" class="u-align--right">16</td>
-              <td data-heading="Disks" class="u-align--right">2</td>
-              <td data-heading="Storage(GB)" class="u-align--right">2</td>
-            </tr>
-            <tr>
-              <th data-heading="FQDN | MAC">Machine 1</th>
-              <td data-heading="Power">Off</td>
-              <td data-heading="Status">Ready</td>
-              <td data-heading="Owner | Pool">Maria</td>
-              <td data-heading="Cores" class="u-align--right">8</td>
-              <td data-heading="RAM(GB)" class="u-align--right">16</td>
-              <td data-heading="Disks" class="u-align--right">2</td>
-              <td data-heading="Storage(GB)" class="u-align--right">2</td>
-            </tr>
-            <tr>
-              <th data-heading="FQDN | MAC">Machine 1</th>
-              <td data-heading="Power">Off</td>
-              <td data-heading="Status">Ready</td>
-              <td data-heading="Owner | Pool">Maria</td>
-              <td data-heading="Cores" class="u-align--right">8</td>
-              <td data-heading="RAM(GB)" class="u-align--right">16</td>
-              <td data-heading="Disks" class="u-align--right">2</td>
-              <td data-heading="Storage(GB)" class="u-align--right">2</td>
-            </tr>
-            <tr>
-              <th data-heading="FQDN | MAC">Machine 1</th>
-              <td data-heading="Power">Off</td>
-              <td data-heading="Status">Ready</td>
-              <td data-heading="Owner | Pool">Maria</td>
-              <td data-heading="Cores" class="u-align--right">8</td>
-              <td data-heading="RAM(GB)" class="u-align--right">16</td>
-              <td data-heading="Disks" class="u-align--right">2</td>
-              <td data-heading="Storage(GB)" class="u-align--right">2</td>
-            </tr>
-          </tbody>
-        </table>
+        <div tabindex="0" role="tabpanel" id="installation-tab" aria-labelledby="installation" hidden="hidden">
+          <div class="row--25-75 is-split-on-medium">
+            <div class="col">  
+              <div class="p-section">
+                <p class="p-heading--2">UnderCMS</p>
+                <img src="./logo.png" alt="">
+              </div>           
+            </div>
+            <div class="col">
+              <div class="p-section">     
+                <p class="p-heading--2">Installation</p>
+                <p class="p-heading--3">Content Management Systems (CMS) are necessary for building any website.</p>
+              </div>           
+            </div>
+          </div>           
+        </div>
+
+        <div tabindex="0" role="tabpanel" id="support-tab" aria-labelledby="support" hidden="hidden">
+          <div class="row--25-75 is-split-on-medium">
+            <div class="col">  
+              <div class="p-section">
+                <p class="p-heading--2">UnderCMS</p>
+                <img src="./logo.png" alt="">
+              </div>           
+            </div>
+            <div class="col">
+              <div class="p-section">     
+                <p class="p-heading--2">Support</p>
+                <p class="p-heading--3">Content Management Systems (CMS) are necessary for building any website.</p>
+              </div>           
+            </div>
+          </div>           
+        </div>           
+
       </div>
+      
     </div>
   </div>
 
-  <section id="home">
+  <hr>
 
+  <div id="index-page"></div>  
+
+  <section id="register">  
+    <aside class="p-strip is-shallow">
+      <div class="row--25-75 is-split-on-medium">
+        <div class="col">  
+          <div class="p-section">     
+            <img src="./logo.png" alt="">
+          </div>       
+        </div>
+        <div class="col">  
+          <div class="p-section">
+            <p class="p-heading--2">Register</p>
+            <p class="p-heading--3">Content Management Systems (CMS) are necessary for building any website. Types of CMS vary depending on the needs of the website and often smaller CMS are more effective for building website faster, such as the UnderCMS.</p>
+          </div>
+          <hr>
+          <div class="p-section"> 
+            <a href="#" class="p-button--positive" style="width: 100px;">Confirm</a> 
+          </div>
+        </div>
+      </div>    
+    </aside>      
   </section>
+  
+  <hr>
 
-  <section id="projects">
-
-  </section>
-
-  <section id="resume">
-
+  <section id="login">  
+    <aside class="p-strip is-shallow">
+      <div class="row--25-75 is-split-on-medium">
+        <div class="col">  
+          <div class="p-section">     
+            <img src="./logo.png" alt="">  
+          </div>       
+        </div>
+        <div class="col">  
+          <div class="p-section">
+            <p class="p-heading--2">Login</p>
+            <p class="p-heading--3">Content Management Systems (CMS) are necessary for building any website. Types of CMS vary depending on the needs of the website and often smaller CMS are more effective for building website faster, such as the UnderCMS.</p>
+          </div>
+          <hr>
+          <div class="p-section"> 
+            <a href="#" class="p-button--positive" style="width: 100px;">Admin</a> 
+            <a href="#" class="p-button--positive" style="width: 100px;">User</a>
+          </div>
+        </div>
+      </div>    
+    </aside>      
   </section>
 
   <hr>
+
   <footer class="">
     <div class="row">
       <p>UnderCMS 2023 - Created by Devrazec</p>

@@ -1,1 +1,195 @@
-{"config":{"pageTitle":"UnderCMS","keywords":"","description":"Test of descripton","logoName":"UnderCMS","logoImage":"logo.png","faviconImage":"favicon.png","defaultPage":"index.html","defaultMenu":"project","style":"style.css","activeLogin":"true","pageHeader":{"content":"UnderCMS is a simple, fast, and modern CMS","backgroundColor":"#cca463","backgroundImage":""},"pageFooter":{"content":"UnderCMS 2023 - Created by Devrazec","backgroundColor":"#cca463","backgroundImage":""}},"menu":[{"sort":"1","slug":"home","name":"Home","page":"#section1","externalLink":"false","active":"true"},{"sort":"2","slug":"services","name":"Services","page":"#section2","externalLink":"false","active":"false"},{"sort":"3","slug":"project","name":"Projects","page":"#section3","externalLink":"false","active":"true"},{"sort":"4","slug":"resume","name":"Resume","page":"https:\/\/www.devrazec.com\/assets\/resume.pdf","externalLink":"true","active":"true"},{"sort":"5","slug":"price","name":"Price","page":"price.html","externalLink":"false","active":"true"},{"sort":"8","slug":"contact","name":"Contact","page":"https:\/\/www.linkedin.com\/in\/maxchip\/","externalLink":"true","active":"true"},{"sort":"7","slug":"users","name":"Users","page":"#section4","externalLink":"false","active":"false"},{"sort":"6","slug":"blog","name":"Blog","page":"#section5","externalLink":"false","active":"true"},{"sort":"7","slug":"about","name":"About Us","page":"#section6","externalLink":"false","active":"true"}],"page":[{"sort":"1","menuSlug":"home","title":"Home","image":"","content":"Welcome to your Home.","active":"true"},{"sort":"4","menuSlug":"services","title":"Services","image":"","content":"Welcome to your Services.","active":"true"},{"sort":"2","menuSlug":"portfolio","title":"Portfolio","image":"","content":"Welcome to your Portfolio.","active":"true"},{"sort":"3","menuSlug":"Price","title":"Price","image":"","content":"Welcome to your Price.","active":"true"},{"sort":"5","menuSlug":"","title":"404","image":"","content":"404 - Page not found","active":"true"},{"sort":"6","menuSlug":"blog","title":"Blog","image":"","content":"Welcome to your Blog.","active":"true"},{"sort":"6","menuSlug":"about","title":"About Us","image":"","content":"Welcome to your About.","active":"true"}],"post":[{"sort":"1","title":"Post 1","date":"10 Sep 2023","user":"Admin1","image":"","content":"Post 1","active":"false"},{"sort":"4","title":"Post 2","date":"10 Sep 2023","user":"Admin1","image":"","content":"Post 2","active":"true"},{"sort":"2","title":"Post 3","date":"10 Sep 2023","user":"Admin1","image":"","content":"Post 3","active":"true"},{"sort":"3","title":"Post 4","date":"10 Sep 2023","user":"Admin1","image":"","content":"Post 4","active":"false"},{"sort":"6","title":"Post 5","date":"10 Sep 2023","user":"Admin1","image":"","content":"Post 5","active":"true"}]}
+{
+    "config": {
+        "pageTitle": "UnderCMS",
+        "keywords": "",
+        "description": "Test of descripton",
+        "logoName": "UnderCMS",
+        "logoImage": "logo.png",
+        "faviconImage": "favicon.png",
+        "defaultPage": "index.html",
+        "defaultMenu": "project",
+        "style": "style.css",
+        "activeLogin": "true",
+        "pageHeader": {
+            "content": "UnderCMS is a simple, fast, and modern CMS",
+            "backgroundColor": "#cca463",
+            "backgroundImage": ""
+        },
+        "pageFooter": {
+            "content": "UnderCMS 2023 - Created by Devrazec",
+            "backgroundColor": "#cca463",
+            "backgroundImage": ""
+        }
+    },
+    "menu": [
+        {
+            "sort": "1",
+            "slug": "home",
+            "name": "Home",
+            "page": "#section1",
+            "externalLink": "false",
+            "active": "true"
+        },
+        {
+            "sort": "2",
+            "slug": "services",
+            "name": "Services",
+            "page": "#section2",
+            "externalLink": "false",
+            "active": "false"
+        },
+        {
+            "sort": "3",
+            "slug": "project",
+            "name": "Projects",
+            "page": "#section3",
+            "externalLink": "false",
+            "active": "true"
+        },
+        {
+            "sort": "4",
+            "slug": "resume",
+            "name": "Resume",
+            "page": "https:\/\/www.devrazec.com\/assets\/resume.pdf",
+            "externalLink": "true",
+            "active": "true"
+        },
+        {
+            "sort": "5",
+            "slug": "price",
+            "name": "Price",
+            "page": "price.html",
+            "externalLink": "false",
+            "active": "true"
+        },
+        {
+            "sort": "8",
+            "slug": "contact",
+            "name": "Contact",
+            "page": "https:\/\/www.linkedin.com\/in\/maxchip\/",
+            "externalLink": "true",
+            "active": "true"
+        },
+        {
+            "sort": "7",
+            "slug": "users",
+            "name": "Users",
+            "page": "#section4",
+            "externalLink": "false",
+            "active": "false"
+        },
+        {
+            "sort": "6",
+            "slug": "blog",
+            "name": "Blog",
+            "page": "#section5",
+            "externalLink": "false",
+            "active": "true"
+        },
+        {
+            "sort": "7",
+            "slug": "about",
+            "name": "About Us",
+            "page": "#section6",
+            "externalLink": "false",
+            "active": "true"
+        }
+    ],
+    "page": [
+        {
+            "sort": "1",
+            "menuSlug": "home",
+            "title": "Home",
+            "image": "./logo.png",
+            "content": "Content Management Systems (CMS) are necessary for building any website. Types of CMS vary depending on the needs of the website and often smaller CMS are more effective for building website faster, such as the UnderCMS.",
+            "active": "true"
+        },
+        {
+            "sort": "4",
+            "menuSlug": "services",
+            "title": "Services",
+            "image": "./logo.png",
+            "content": "Welcome to your Services.",
+            "active": "true"
+        },
+        {
+            "sort": "2",
+            "menuSlug": "projects",
+            "title": "Projects",
+            "image": "./logo.png",
+            "content": "Welcome to your Projects.",
+            "active": "true"
+        },
+        {
+            "sort": "3",
+            "menuSlug": "Price",
+            "title": "Price",
+            "image": "./logo.png",
+            "content": "Welcome to your Price.",
+            "active": "true"
+        },
+        {
+            "sort": "6",
+            "menuSlug": "blog",
+            "title": "Blog",
+            "image": "./logo.png",
+            "content": "Welcome to your Blog.",
+            "active": "true"
+        },
+        {
+            "sort": "0",
+            "menuSlug": "about",
+            "title": "About Us",
+            "image": "./logo.png",
+            "content": "Welcome to your About.",
+            "active": "true"
+        }
+    ],
+    "post": [
+        {
+            "sort": "1",
+            "title": "Post 1",
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "image": "",
+            "content": "Post 1",
+            "active": "false"
+        },
+        {
+            "sort": "4",
+            "title": "Post 2",
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "image": "",
+            "content": "Post 2",
+            "active": "true"
+        },
+        {
+            "sort": "2",
+            "title": "Post 3",
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "image": "",
+            "content": "Post 3",
+            "active": "true"
+        },
+        {
+            "sort": "3",
+            "title": "Post 4",
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "image": "",
+            "content": "Post 4",
+            "active": "false"
+        },
+        {
+            "sort": "6",
+            "title": "Post 5",
+            "date": "10 Sep 2023",
+            "user": "Admin1",
+            "image": "",
+            "content": "Post 5",
+            "active": "true"
+        }
+    ]
+}
